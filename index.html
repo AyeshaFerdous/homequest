@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HomeQuest</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    
+</head>
+<body>
+    <header class="fixed top-0 left-0 w-full z-50 bg-transparent backdrop-blur-md">
+        <div class="w-11/12 mx-auto flex items-center justify-between px-4 md:px-8 py-4">
+          
+          <div class="flex items-center space-x-2">
+            <div class="w-32 md:w-48">
+              <img src="./assets/Logo (1).png" alt="Logo" class="w-full">
+            </div>
+          </div>
+    
+          <nav class="hidden lg:flex space-x-6 xl:space-x-10 text-white font-medium">
+            <a href="#" class="hover:border border-white px-3 py-2 rounded-full text-sm md:text-base">Projects</a>
+            <a href="#" class="hover:border border-white px-3 py-2 rounded-full text-sm md:text-base">Services</a>
+            <a href="#" class="hover:border border-white px-3 py-2 rounded-full text-sm md:text-base">Contact</a>
+            <a href="#" class="hover:border border-white px-3 py-2 rounded-full text-sm md:text-base">Testimonials</a>
+          </nav>
+    
+          <div class="flex items-center space-x-3 md:space-x-5">
+            <span class="hidden md:inline text-white font-semibold text-sm md:text-base">+21 934 748 392</span>
+            <button class="bg-lime-400 hover:bg-lime-500 text-black px-4 md:px-6 py-2 rounded-full font-semibold text-sm md:text-base transition">
+              Get a Quote →
+            </button>
+          </div>
+        </div>
+      </header>
+    
+      <!-- Hero Section -->
+      <section class="relative bg-cover bg-center h-[90vh] md:h-[100vh] pt-28" style="background-image: url('./assets/image.png');">
+        
+    
+        <div class="relative z-10 w-11/12 mx-auto flex flex-col items-start justify-center h-full px-4 md:px-8 text-white">
+          <h1 class="text-3xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6">
+            Turning Your Real Estate<br>Dreams into Reality
+          </h1>
+          <p class="text-md md:text-lg lg:text-xl mb-8">
+            Forget clunky application forms. We offer a modern, user-friendly platform<br class="hidden md:block">
+            that makes applying for a job a breeze.
+          </p>
+    
+          <div class="relative flex w-full max-w-lg">
+            <input
+              type="text"
+              placeholder="Search your dream real estate"
+              class="w-full p-4 pr-40 rounded-full bg-white border border-gray-300 text-gray-700 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-green-700 focus:border-transparent"
+            />
+            <button
+              class="absolute top-1 right-1 bottom-1 bg-green-700 hover:bg-green-800 text-white font-semibold px-6 rounded-full transition-all duration-300"
+            >
+              Search for booking
+            </button>
+          </div>
+        </div>
+      </section>
+    
+    
+</body>
+</html>
